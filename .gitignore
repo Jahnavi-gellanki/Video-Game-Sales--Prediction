@@ -1,0 +1,59 @@
+# -----------------------------
+# Python cache and build files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+*.log
+*.pkl
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.env
+.venv/
+venv/
+env/
+*.env
+.env.*
+
+# -----------------------------
+# IDE and OS files
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter notebooks checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Model and large data files
+# -----------------------------
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.sav
+*.pt
+*.pth
+*.model
+*.dat
+*.csv
+
+# -----------------------------
+# Temporary or debug files
+# -----------------------------
+*.tmp
+*.bak
+*.swp
